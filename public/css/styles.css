@@ -1,0 +1,475 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    color: green;
+    padding:5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position:absolute;
+    right:20px;
+    top:-15px;
+}
+
+.div-logo{
+    text-align: center;
+}
+
+.main-header{
+    padding:20px;
+    /*position:fixed;
+    top:0;*/
+    width: 100%;
+    /*z-index: 1;*/
+}
+
+
+.hamburger-button{
+    background-color: #03264C;
+    color: white;
+    display:block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-navbar ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color:#222222;
+    display:inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.main-navbar{
+    display: none;
+}
+
+.fas.fa-bars{
+    color:white;
+}
+
+.link-logo{
+    max-width: 180px;
+}
+
+h1{
+    font-size:36px;
+}
+
+h2{
+    font-size:30px;
+}
+
+h3{
+    font-size:24px;
+    /*text-align: center;*/
+    margin:10px
+}
+
+h4{
+    font-size:19px;
+}
+
+h5{
+    font-size:16px;
+    text-align: left;
+    margin: 15px 15px 0px 10px;
+}
+
+
+img{
+    width: 100%;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+    color: green;
+}
+
+.logo{
+    width:60%;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+body{
+    /*background-color: #EAC926;*/
+    background-color: #ebebeb;
+}
+
+article{
+    background-color: white;
+    margin:10px 0px;
+    padding: 5px;
+    position: relative;
+}
+
+p{
+    
+    padding-left: 10px;
+}
+
+input{
+    text-align: left;
+}
+
+main{
+    width: 90%;
+    text-align: left;
+    margin: 0 5vw;
+}
+
+.caja-info{
+    border-top: solid 1px #ebebeb ;
+    text-align: left;
+    position:relative;
+}
+
+.caja-info p h5{
+    margin: 15px;
+}
+
+#circle{
+    text-align: left;
+}
+
+footer{
+    width:100%;
+    /*margin: 0 5vw;*/
+    background-color: white;
+    padding:10px;
+    text-align: center;
+
+}
+
+
+
+.cright{
+    margin: 15px 0px 5px 0px;
+}
+
+form .b-login{
+    margin-bottom: 25px;
+}
+
+i.fas.fa-user-shield{
+    font-size: 2em;
+    color:#084680;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+i.fas.fa-user-shield:hover{
+    color:rgb(43, 122, 226);
+}
+
+i.fas.fa-gift{
+    font-size: 2em;
+    color:#084680;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+i.fas.fa-gift:hover{
+    color:rgb(43, 122, 226);
+}
+
+.fas.fa-credit-card.center{
+    font-size: 2em;
+    /*color:#03264C;*/
+    color:#084680;
+    text-align: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fas.fa-credit-card.center:hover{
+    color:rgb(43, 122, 226);
+}
+
+.center{
+    text-align: center;
+}
+
+#circle {
+    position:relative;
+    background-color: #fff;
+    margin: 10px 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 2px green;
+    
+}
+  
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: green;
+    font-size:10px;
+}
+
+.cont-decont, .ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+
+/*.formulario{
+    margin-top: 200px;
+}*/
+
+/*.formulario{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}*/
+
+.formulario > input{
+    height: 30px;
+    width: 75%;
+    margin:10px;
+    justify-self: center;
+    
+}
+
+.p-usuario{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.alv{
+    text-align: center;
+}
+
+.alv > input{
+    height: 40px;
+    width: 75%;
+    margin:10px;
+    justify-self: center;
+    
+}
+
+.intereses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.f-login{
+    text-align: center;
+}
+
+.a-registro form > button{
+    justify-self:center ;
+}
+
+/*.banner{
+    margin-top: 200px;
+}*/
+
+.input-buscador{
+    height: 35px;
+}
+
+.boton-buscador{
+    height: 35px;
+    width: 35px;
+}
+
+.boton-buscador:hover{
+    cursor: pointer;
+}
+
+.botones{
+    height: 40px;
+    width:70%;
+    color:white;
+    /*background-color: #03264C;*/
+    background-color: #EAC926;
+    margin: 10px;
+}
+
+.botones:hover{
+    background-color: #0022AA;
+    transition: .5s;
+}
+
+.descripcion{
+    display: none;
+}
+
+.seccion-footer{
+    margin:10px;
+}
+
+@media (min-width: 361px){
+    article:hover { 
+        box-shadow: 0px 0px 10px rgb(100,100,100);       
+        transition:box-shadow .4s;
+    }
+
+    article:hover .descripcion{
+        display: block;
+    }
+
+    article:hover .fas.fa-truck{
+        transform:rotate(-90deg);
+        transition: 1s;
+    }
+}
+
+@media (min-width: 768px){
+    .hamburger-button{
+        display: none;
+    }
+
+    
+    .main-navbar{
+        display: inline-block;
+    }
+
+    .logo{
+        width: 100%;
+    }
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .copy-header{
+        max-width: 290px;
+        text-align: right;
+    }
+    article{
+        width:45%;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 5px;
+    }
+
+    .alv > input{
+        height: 40px;
+        width: 70%;
+        margin:10px;
+        justify-self: center;
+        
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .seccion-footer{
+        text-align: center;
+        width: 30%;
+    }
+
+    /*.banner{
+        margin-top: 149px;
+    }*/
+}
+
+@media (min-width:1200px){
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top-bar{
+        align-items: center;
+    }
+
+    .copy-header{
+        max-width: none;
+    }
+
+    .main-navbar{
+        margin-top: 15px;
+    }
+
+    .main-navbar li{
+        margin: 0 10px;
+    }
+
+    .main-navbar a{
+        font-size: 19px;
+    }
+
+    article{
+        width: 24%;
+    }
+
+    .alv > input{
+        height: 40px;
+        width: 50%;
+        margin:10px;
+        justify-self: center;
+        
+    }
+
+    .botones{
+        width: 50%;
+    }
+}
